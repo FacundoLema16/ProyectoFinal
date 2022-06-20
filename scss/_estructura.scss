@@ -1,0 +1,251 @@
+
+/*Navegador*/
+
+.logo {
+    width: 5vw; }
+  
+  .large {
+    font-size:  1.6rem;
+    margin-top: 3%;
+    color: black;
+    margin-left: 3%; 
+  
+      .large1 {
+          font-size:  1.6rem;
+          color: black;
+          margin-left: 3%;
+          margin-top: 3%;
+  
+          .large2 {
+              font-size:  1.6rem;
+              color: black;
+              margin-left:3%;
+              margin-top: 3%; 
+          }
+      }
+  }
+  
+  
+  #mainheader {
+    background-image: url(/img/UltimaPrueba3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    
+  .btn{
+      display: inline-block;
+      font-size: 35px;
+      padding: 1px 35px;
+      margin-left: 3%;
+      margin-bottom: 11%;
+      margin-top: 3%;
+  
+      .btn-red{
+          background-color: black;
+          border-radius: 5px;
+          text-decoration: none;
+          color: rgba(145, 103, 49, 0.596);
+          text-align: center;
+      }
+  }
+  /*Patrocinio*/
+#patrocinio {
+    background-image: linear-gradient(to right, rgb(49, 30, 30), #362915);
+    padding-top: 70px;
+    padding-bottom: 35%; 
+
+    .patrocinio-box {
+        float: left;
+        width: 32%;
+        text-align: center; 
+    
+        .patrocinio-box img {
+            float: left;
+            width: 80%;
+            margin: 0px 15px 15px 0px;
+            margin-left: 5%;
+         }
+    }
+}
+
+
+/*Fundadores*/
+#fundadores {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: 30%; 
+
+    #fundadores h4 {
+        padding-bottom: 20px;
+    
+        .fundadores-box {
+            float: left;
+            width: 33%;
+            padding: 50px;
+        
+            .fundadores-box p{
+                font-size: 2vw;
+                text-align: center;
+
+                .fundadores-box img {
+                    width: 30%;
+                    text-align: center; 
+                
+                    .redes-fundadores {
+                        display: inline; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.REDES{
+    padding:0;
+    list-style:none;
+    margin:1em;
+
+    .REDES  li{
+        display:inline-block;
+        margin:.15em;
+        position:relative;
+        font-size:1.2em;
+
+        .REDES i{
+            color:rgb(49, 41, 41);
+            position:absolute;
+            top:21px;
+            left:21px;
+            transition:all 265ms ease-out;
+        
+            .REDES a{
+                display:inline; 
+            
+                .REDES a:before{
+                    transform:scale(1);
+                    -ms-transform:scale(1);
+                    -webkit-transform:scale(1);
+                    content:" ";width:60px;
+                    height:60px;
+                    border-radius:100%;
+                    display:block;
+                    background:linear-gradient(45deg,#e0850c,#333d53);
+                    transition:all 265ms ease-out;
+                
+                    .REDES a:hover:before{transform:scale(0);
+                        transition:all 265ms ease-in;
+                    
+                        
+                        .REDES a:hover i{
+                            transform:scale(2.2);
+                            -ms-transform:scale(2.2);
+                            -webkit-transform:scale(2.2);
+                            color:#00B5F5;
+                            background:-webkit-linear-gradient(45deg,#925608,#626d85);
+                            -webkit-text-fill-color:transparent;
+                            transition:all 265ms ease-in
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*Guia*/
+#guia {
+    padding-bottom: 50px;
+    margin-top: 40%; 
+
+    #guia p {
+        text-align: center;
+        padding-top: 80px;
+        font-size: 27px; 
+        margin: 30px;
+
+        #guia h3 {
+            text-align: center;
+          font-size: 40px; 
+
+                .imgguia{
+                      float: left;
+                      margin-top: 7vw;
+                      width: 40%;
+             }
+        }
+    }
+}
+
+  #guia h3 {
+      text-align: center;
+    font-size: 40px; }
+  
+.imgguia{
+    float: left;
+    margin-top: 7vw;
+    width: 40%;
+}
+
+/*Que somos*/
+#quesomos {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+         #quesomos p {
+             text-align: center;
+             margin-top: 10%;
+             font-size: 27px; 
+             margin: 30px;
+
+             h1{
+                font-size: 40px; 
+            }
+      }
+ }
+
+/*Soporte*/
+
+h6{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Footer*/
+#mainfooter {
+    text-align: center;
+    padding: 30px;
+    background-image: url(/img/istockphoto-1128458526-170667a.jpg); }
+  
+  .redes-sociales {
+    float: right;
+    display: flex;
+    width: 120px;
+    height: 30px; 
+ 
+        .redes-sociales a {
+        margin: 0 5px;
+        line-height: 5px;
+        font-size: 30px;
+        color: #024463;
+        box-shadow: 0px 5px 5px 0px #000000; 
+    
+        .redes-sociales  a:hover {
+            filter: blur(2px);
+        
+        .redes-sociales  a:hover {
+                transform:scale(2.2);
+                -ms-transform:scale(2.2);
+                -webkit-transform:scale(2.2);
+                color:#0c0d0e;
+                background:-webkit-linear-gradient(45deg,#925608,#626d85);
+                transition:all 265ms ease-in   
+            }
+
+        }
+    }
+}
+
+  
