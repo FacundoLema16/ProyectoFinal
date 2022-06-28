@@ -17,9 +17,8 @@ body {
   padding: 0 10px; }
 
 /*Navegador*/
-.navbarNav ul li a{
-  color: black;
-}
+.nav-link {
+  color: black; }
 
 .logo {
   width: 5vw; }
@@ -196,14 +195,10 @@ body {
     margin: 0 5px;
     line-height: 5px;
     font-size: 30px;
-    color: #024463;
-    box-shadow: 0px 5px 5px 0px #000000; }
-  .redes-sociales a:hover {
-    filter: blur(2px); }
+    color: #024463; }
   .redes-sociales a:hover {
     transform: scale(2.2);
     -ms-transform: scale(2.2);
     -webkit-transform: scale(2.2);
     color: #0c0d0e;
-    background: -webkit-linear-gradient(45deg, #925608, #626d85);
     transition: all 265ms ease-in; }
