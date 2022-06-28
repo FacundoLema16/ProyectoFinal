@@ -17,6 +17,10 @@ body {
   padding: 0 10px; }
 
 /*Navegador*/
+.navbarNav ul li a{
+  color: black;
+}
+
 .logo {
   width: 5vw; }
 
@@ -93,23 +97,25 @@ body {
   .fundadores-box img {
     width: 30%;
     text-align: center; }
-  .fundadores-box .redes-fundadores {
-    display: inline; }
+
+.redes-fundadores {
+  display: inline; }
 
 .REDES {
   padding: 0;
   list-style: none;
-  margin: 1em; }
+  margin: 0.1em; }
   .REDES li {
     display: inline-block;
     margin: .15em;
     position: relative;
-    font-size: 1.2em; }
+    font-size: 3vh;
+    justify-content: center; }
   .REDES i {
     color: #312929;
     position: absolute;
-    top: 21px;
-    left: 21px;
+    top: 17px;
+    left: 15px;
     transition: all 265ms ease-out; }
   .REDES a {
     display: inline; }
@@ -118,8 +124,8 @@ body {
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     content: " ";
-    width: 60px;
-    height: 60px;
+    width: 8vh;
+    height: 8vh;
     border-radius: 100%;
     display: block;
     background: linear-gradient(45deg, #e0850c, #333d53);
@@ -147,7 +153,7 @@ body {
     font-size: 27px;
     margin: 30px; }
 
-h3 {
+.GuiaTxt {
   text-align: center;
   font-size: 40px; }
 
@@ -167,11 +173,11 @@ h3 {
     font-size: 27px;
     margin: 30px; }
 
-h1 {
+.qsomtext {
   font-size: 40px; }
 
 /*Soporte*/
-h6 {
+.soportext {
   text-align: center;
   font-size: 30px; }
 

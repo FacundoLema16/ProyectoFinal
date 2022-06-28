@@ -1,26 +1,28 @@
 
 /*Navegador*/
-
+.nav-link{
+    color: black;
+}
 .logo {
     width: 5vw; }
   
   .large {
-    font-size:  1.6rem;
-    margin-top: 3%;
+    font-size:  $ssfont;
+    margin-top: $chico;
     color: black;
-    margin-left: 3%;}
+    margin-left:$chico;}
   
     .large1 {
-          font-size:  1.6rem;
+          font-size: $ssfont;
           color: black;
-          margin-left: 3%;
-          margin-top: 3%;}
+          margin-left: $chico;
+          margin-top: $chico;}
   
           .large2 {
-              font-size:  1.6rem;
+              font-size:  $ssfont;
               color: black;
-              margin-left:3%;
-              margin-top: 3%; 
+              margin-left:$chico;
+              margin-top: $chico; 
       }
  
 
@@ -35,9 +37,9 @@
       display: inline-block;
       font-size: 35px;
       padding: 1px 35px;
-      margin-left: 3%;
+      margin-left: $chico;
       margin-bottom: 11%;
-      margin-top: 3%;}
+      margin-top: $chico;}
   
       .btn-red{
           background-color: black;
@@ -88,11 +90,11 @@
                  img {
                     width: 30%;
                     text-align: center; }
-                
-                    .redes-fundadores {
-                        display: inline; 
-                    }
                 }
+ .redes-fundadores {
+     display: inline; 
+   }
+
 
 
 
@@ -100,18 +102,20 @@
 .REDES{
     padding:0;
     list-style:none;
-    margin:1em;
+    margin:0.1em;
 
     li{
         display:inline-block;
         margin:.15em;
         position:relative;
-        font-size:1.2em;}
+        font-size:3vh;
+        justify-content: center;
+    }
             i{
             color:rgb(49, 41, 41);
             position:absolute;
-            top:21px;
-            left:21px;
+            top:17px;
+            left:15px;
             transition:all 265ms ease-out;}
         
             a{
@@ -121,8 +125,8 @@
                     transform:scale(1);
                     -ms-transform:scale(1);
                     -webkit-transform:scale(1);
-                    content:" ";width:60px;
-                    height:60px;
+                    content:" ";width:8vh;
+                    height:8vh;
                     border-radius:100%;
                     display:block;
                     background:linear-gradient(45deg,#e0850c,#333d53);
@@ -154,10 +158,10 @@
         text-align: center;
         padding-top: 80px;
         font-size: 27px; 
-        margin: 30px;}
+        margin: $medianito;}
 
     }
-h3 {
+.GuiaTxt{
             text-align: center;
           font-size: 40px; }
 
@@ -179,36 +183,36 @@ h3 {
              text-align: center;
              margin-top: 10%;
              font-size: 27px; 
-             margin: 30px;}
+             margin: $medianito;}
 }
-             h1{
+.qsomtext{
                 font-size: 40px; 
             }    
 
 
 /*Soporte*/
 
-h6{
+.soportext{
     text-align: center;
-    font-size: 30px;
+    font-size: $medianito;
 }
 
 /*Footer*/
 #mainfooter {
     text-align: center;
-    padding: 30px;
+    padding: $medianito;
     background-image: url(/img/istockphoto-1128458526-170667a.jpg); }
   
   .redes-sociales {
     float: right;
     display: flex;
     width: 120px;
-    height: 30px; 
+    height: $medianito; 
  
         a {
         margin: 0 5px;
         line-height: 5px;
-        font-size: 30px;
+        font-size: $medianito;
         color: #024463;
         box-shadow: 0px 5px 5px 0px #000000; }
     
